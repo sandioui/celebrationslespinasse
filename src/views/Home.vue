@@ -90,6 +90,27 @@
 
         </div>
     </div>
+    
+    <section class="background-wrapper-beige">
+        <div id="section3">
+            <div id="section3_text">
+                <h1 id="section3_title">
+                    Qui suis-je ?
+                </h1>
+                <div id="section3_paragraph">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl pretium fusce id velit ut tortor pretium viverra. Vel elit scelerisque mauris pellentesque. Malesuada nunc vel risus commodo. Quisque id diam vel quam elementum pulvinar etiam. Quam quisque id diam vel quam elementum pulvinar etiam. Amet justo donec enim diam vulputate ut. Pulvinar mattis nunc sed blandit libero volutpat. Mi bibendum neque egestas congue. 
+                    <br> Cursus euismod quis viverra nibh cras pulvinar mattis nunc sed. Commodo ullamcorper a lacus vestibulum sed arcu non odio. Mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien. Lectus proin nibh nisl condimentum id. In egestas erat imperdiet sed. Lorem ipsum dolor sit amet. Sagittis vitae et leo duis. Volutpat est velit egestas dui id ornare. 
+                    <br>Sed adipiscing diam donec adipiscing tristique risus nec. Molestie ac feugiat sed lectus vestibulum mattis. Volutpat odio facilisis mauris sit amet. Maecenas volutpat blandit aliquam etiam erat velit scelerisque in dictum. 
+                </div>
+            </div> 
+            
+            <div id="section3_pictures">
+                <img id="steeve-branding" src="../assets/steeve_branding.png" >
+
+            </div>
+        </div>
+    </section>
+
 </template>
 
 <script>
@@ -145,7 +166,7 @@ export default {
 
     #ceremony-img {
         padding: 0 0;
-        width: 560px;
+        width: 43vh;
         float:right;
         clear:right;
     }
@@ -156,7 +177,8 @@ export default {
         right: 352px;
         bottom: 100px;
         z-index: 1;
-        top: 676px
+        top: 676px;
+        width: 35vh;
     }
 
     #section2 {
@@ -184,7 +206,7 @@ export default {
     }
 
     #section2 #last_row {
-        margin-bottom: 0px;
+        margin-bottom: 139px;
     }
 
     
