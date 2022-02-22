@@ -5,6 +5,8 @@
       <div id="nav">
         <router-link to="/">Home     </router-link>
         <router-link to="/celebration"> Celebration</router-link>
+        <router-link to="/evenement"> Gestion d'événements</router-link>
+        <router-link to="/cle-en-main"> Clé en main</router-link>
         <router-link to="/about"> About</router-link>
       </div>
     </div>

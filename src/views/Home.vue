@@ -97,17 +97,27 @@
                 <h1 id="section3_title">
                     Qui suis-je ?
                 </h1>
-                <div id="section3_paragraph">
+                <div class="section3_paragraph">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl pretium fusce id velit ut tortor pretium viverra. Vel elit scelerisque mauris pellentesque. Malesuada nunc vel risus commodo. Quisque id diam vel quam elementum pulvinar etiam. Quam quisque id diam vel quam elementum pulvinar etiam. Amet justo donec enim diam vulputate ut. Pulvinar mattis nunc sed blandit libero volutpat. Mi bibendum neque egestas congue. 
-                    <br> Cursus euismod quis viverra nibh cras pulvinar mattis nunc sed. Commodo ullamcorper a lacus vestibulum sed arcu non odio. Mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien. Lectus proin nibh nisl condimentum id. In egestas erat imperdiet sed. Lorem ipsum dolor sit amet. Sagittis vitae et leo duis. Volutpat est velit egestas dui id ornare. 
-                    <br>Sed adipiscing diam donec adipiscing tristique risus nec. Molestie ac feugiat sed lectus vestibulum mattis. Volutpat odio facilisis mauris sit amet. Maecenas volutpat blandit aliquam etiam erat velit scelerisque in dictum. 
+                </div>
+                <div class="section3_paragraph">
+                    Cursus euismod quis viverra nibh cras pulvinar mattis nunc sed. Commodo ullamcorper a lacus vestibulum sed arcu non odio. Mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien. Lectus proin nibh nisl condimentum id. In egestas erat imperdiet sed. Lorem ipsum dolor sit amet. Sagittis vitae et leo duis. Volutpat est velit egestas dui id ornare. 
+                </div>
+                <div class="section3_paragraph">
+                    Sed adipiscing diam donec adipiscing tristique risus nec. Molestie ac feugiat sed lectus vestibulum mattis. Volutpat odio facilisis mauris sit amet. Maecenas volutpat blandit aliquam etiam erat velit scelerisque in dictum. 
                 </div>
             </div> 
             
-            <div id="section3_pictures">
+            <div id="section3_img">
                 <img id="steeve-branding" src="../assets/steeve_branding.png" >
 
             </div>
+        </div>
+    </section>
+
+    <section id="section4" class="boxed">
+        <div id="section3_carrousel">
+
         </div>
     </section>
 
@@ -140,6 +150,7 @@ export default {
         font-size: 46px;
         font-weight: 400;
         margin-top: 28px;
+        margin-bottom: 20px;
     }
 
     #section1 #section1_paragraph {
@@ -195,7 +206,7 @@ export default {
         margin-bottom: 30px;
     }
 
-    .row {
+    #section2 .row {
         display: flex;
         padding: 0 162px 0 162px;
         vertical-align: top;
@@ -218,13 +229,13 @@ export default {
         padding: 0 89px 0 0;
     }
 
-    .row .title {
+    #section2 .row .title {
         margin-bottom: 27px;
         font-weight: bold;
         
     }
 
-    .row .text {
+    #section2 .row .text {
         margin-bottom: 27px;
         line-height: 1.7;
         font-weight: regular;
@@ -235,5 +246,45 @@ export default {
         padding: 0 0 0 15px;
     }
 
+    #section3 {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 8% 4% 1% 4%;
+        height: 63vh;
+        color: #444554;
+        align-items: center;
+    }
+    
+    #section3 #section3_text {
+        padding: 0 0 0 11.5%;
+    
+    }
 
+    #section3 #section3_title {
+        font-family: 'Prata', serif;
+        font-size: 46px;
+        font-weight: 400;
+        margin-bottom: 48px;
+    }
+
+    #section3 .section3_paragraph {
+        font-family: 'Lato', sans-serif;
+        text-align: justify;
+        font-size: 19px;
+        line-height: 1.7;
+        max-width: 82%;
+        margin-bottom: 28px;
+    }
+
+    #section3_img {
+        padding-right: 4%;
+    }
+
+    #section4 {
+        padding: 8% 4% 1% 4%;
+        height: 30vh;
+        color: #444554;
+        align-items: center;
+    }
 </style>©
