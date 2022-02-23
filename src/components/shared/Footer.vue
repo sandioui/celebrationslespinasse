@@ -15,7 +15,7 @@
     </div>
     <hr>
     <div id="bottom-section">
-        <div>© 2021. LES GESTIONS SANO | Tous droits réservés.</div>
+        <div> <strong>© 2021. LES GESTIONS SANO</strong> | Tous droits réservés.</div>
         <div id="follow-me-section">
             Suivez-moi :
             <div id="icon-section">
@@ -36,7 +36,6 @@ export default {
 
 <style>
     #footer {
-        padding: 2% 0;
         background-color: #F4F1F0;
         padding: 1% 4% 1% 4%;
         font-family: 'Lato';
@@ -47,16 +46,19 @@ export default {
         align-items: center;
         justify-content: space-between;
         align-items: baseline;
+        padding: 2% 0 0;
     }
 
     #footer h3 {
         font-family: 'Prata', serif;
+        font-weight: 400;
     }
 
     #footer-text {
         width: 70%;
         padding: 2% 0;
         font-family: 'Lato';
+        line-height: 1.5;
     }
 
     #footer-nav {

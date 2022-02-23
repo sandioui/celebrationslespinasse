@@ -1,9 +1,8 @@
 <template>
   <section class="nav-wrapper">
     <div id="navbar" class="boxed">
-      <img alt="Vue logo" src="../../assets/logo.png">
+      <router-link to="/"><img alt="Vue logo" src="../../assets/logo.png"></router-link> 
       <div id="nav">
-        <router-link to="/">Home     </router-link>
         <router-link to="/celebration"> Celebration</router-link>
         <router-link to="/evenement"> Gestion d'événements</router-link>
         <router-link to="/cle-en-main"> Clé en main</router-link>

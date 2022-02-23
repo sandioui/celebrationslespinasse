@@ -115,12 +115,6 @@
         </div>
     </section>
 
-    <section id="section4" class="boxed">
-        <div id="section3_carrousel">
-
-        </div>
-    </section>
-
 </template>
 
 <script>
@@ -281,10 +275,5 @@ export default {
         padding-right: 4%;
     }
 
-    #section4 {
-        padding: 8% 4% 1% 4%;
-        height: 30vh;
-        color: #444554;
-        align-items: center;
-    }
+    
 </style>©
