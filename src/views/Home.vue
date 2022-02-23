@@ -18,8 +18,7 @@
             </div> 
             
             <div id="section1_pictures">
-                <img id="ceremony-img" src="../assets/ceremonie.png" >
-                <img id="hands" src="../assets/hands.png">
+                <img id="ceremony-img" src="../assets/photo_home.png">
 
             </div>
         </div>
@@ -129,13 +128,14 @@ export default {
         display: flex;
         justify-content: space-between;
         width: 100%;
-        padding: 8% 4% 1% 4%;
-        height: 67vh;
+        padding: 8% 4% 8% 4%;
         color: #444554;
     }
     
     #section1 #section1_text {
         padding: 0 0 0 4%;
+        position: absolute;
+        max-width: 50%;
     
     }
 
@@ -151,7 +151,7 @@ export default {
         font-family: 'Lato', sans-serif;
         font-size: 19px;
         line-height: 1.7;
-        margin-bottom: 85px;
+        margin-bottom: 70px;
     }
 
     #section1 #section1_CTA {
@@ -171,9 +171,10 @@ export default {
 
     #ceremony-img {
         padding: 0 0;
-        width: 43vh;
+        width: 55vh;
         float:right;
         clear:right;
+    
     }
 
 

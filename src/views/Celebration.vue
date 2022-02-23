@@ -15,11 +15,11 @@
                     Cursus euismod quis viverra nibh cras pulvinar mattis nunc sed. Commodo ullamcorper a lacus vestibulum sed arcu non odio. Mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien. Lectus proin nibh nisl condimentum id. In egestas erat imperdiet sed. Lorem ipsum dolor sit amet. Sagittis vitae et leo duis. Volutpat est velit egestas dui id ornare. 
                 </div>
 
-                <div>
-                    <a id="service_section1_CTA">
+                <span id="service_section1_CTA">
+                    <a>
                         Préparons un moment mémorable
                     </a>
-                </div>
+                </span>
             </div> 
             <div id="service_section1_pictures">
                 <img id="hands_services_full-img" src="../assets/hands_services_full.png" >
@@ -93,8 +93,8 @@
           </div>
         </div>
 
-        <div>
-          <a id="service_section2_CTA">
+        <div id="service_section2_CTA">
+          <a>
             Planifiez une rencontre
           </a>
         </div>
@@ -112,8 +112,7 @@ export default {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding: 8% 4% 1% 4%;
-    height: 67vh;
+    padding: 8% 4% 8% 4%;
     color: #444554;
   }
 
@@ -161,6 +160,7 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 106px;
   }
 
   #service_section2 #section2_title {
@@ -213,6 +213,7 @@ export default {
   #service_container_last-row {
     margin-bottom: 101px;
   }
+
   #service_section2_CTA {
     font-family: 'Lato', sans-serif;
     font-size: 22px;
@@ -221,7 +222,7 @@ export default {
     color: #ffff ;
     border-radius: 20px;
     letter-spacing: 0.5px;
-    
+
   }
 
 

@@ -6,7 +6,7 @@
         <router-link to="/celebration"> Celebration</router-link>
         <router-link to="/evenement"> Gestion d'événements</router-link>
         <router-link to="/cle-en-main"> Clé en main</router-link>
-        <router-link to="/about"> About</router-link>
+        <router-link to="/contact"> Contact</router-link>
       </div>
     </div>
   </section>
