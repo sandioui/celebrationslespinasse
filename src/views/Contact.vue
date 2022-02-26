@@ -3,16 +3,19 @@
     <h1 id="contact_section1_title">Contact</h1>
     <div id="contact_section1" class="boxed"> 
       <div>
-        <form>
+        <form action="mailto:sandrine.stonge@gmail.com">
           <input type="text" id="prenom">
           <label for="prenom">Prénom</label><br>
           <input type="text" id="nom">
           <label for="nom">Nom</label><br>
           <input type="text" id="courriel">
           <label for="courriel">Courriel</label><br>
-          <input type="select" id="type_evenement">
-            <label>Type d'événement</label>
-            <option value="evenement">Gestion d'événement</option>
+          <input type="radio" id="mariage" name="event_type" value="mariage">
+          <label for="mariage">Célébration de mariage</label><br>
+          <input type="radio" id="evenement" name="event_type" value="evenement">
+          <label for="evenement">Gestion d'événement</label><br>
+          <input type="radio" id="cle_en_main" name="event_type" value="cle_en_main">
+          <label for="cle_en_main">Clé en main</label>
           <input type="text" id="message">
           <label for="message">Message</label><br><br>
           <input type="submit" value="Envoyer">
