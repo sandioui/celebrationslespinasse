@@ -18,7 +18,7 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
+  color: #444554;
   flex-direction: column;
   overflow-x: hidden;
 }
@@ -26,11 +26,16 @@ export default {
 
 #nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: #444554;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  letter-spacing: -0.1px;
 }
 
 #nav a.router-link-exact-active {
-  color: #42b983;
+  color: #444554;
 }
 
 .background-wrapper-beige {

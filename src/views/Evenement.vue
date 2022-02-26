@@ -136,6 +136,7 @@ export default {
     max-width: 91%;
     line-height: 1.7;
     margin-bottom: 25px;
+    text-align: justify;
   }
 
   #service_section1 #last_paragraph {
