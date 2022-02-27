@@ -40,7 +40,7 @@
                 </div>
                 <div>
                     <img src="../assets/right_arrow.png">
-                    <a class="section2_CTA">
+                    <a href="/celebration" class="section2_CTA">
                         En savoir plus
                     </a>
                 </div>
@@ -60,7 +60,7 @@
                 </div>
                 <div>
                     <img src="../assets/right_arrow.png">
-                    <a class="section2_CTA">
+                    <a href="/evenement" class="section2_CTA">
                         En savoir plus
                     </a>
                 </div>
@@ -81,7 +81,7 @@
                 </div>
                 <div>
                     <img src="../assets/right_arrow.png">
-                    <a class="section2_CTA">
+                    <a href="cle-en-main" class="section2_CTA">
                         En savoir plus
                     </a>
                 </div>
@@ -239,6 +239,7 @@ export default {
     .section2_CTA {
         color: #7D7D7D;
         padding: 0 0 0 15px;
+        text-decoration: none;
     }
 
     #section3 {

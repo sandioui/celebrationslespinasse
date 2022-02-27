@@ -16,7 +16,7 @@
                 </div>
 
                 <span id="service_section1_CTA">
-                    <a>
+                    <a href="/contact" class="service_CTA">
                         Préparons un moment mémorable
                     </a>
                 </span>
@@ -94,7 +94,7 @@
         </div>
 
         <div id="service_section2_CTA">
-          <a>
+          <a href="/contact" class="service_CTA">
             Planifiez une rencontre
           </a>
         </div>
@@ -225,6 +225,10 @@ export default {
 
   }
 
+  .service_CTA {
+    text-decoration: none;
+    color: #ffff;
+  }
 
   
 </style>©

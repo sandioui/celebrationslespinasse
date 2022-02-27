@@ -16,7 +16,7 @@
                 </div>
 
                 <span id="service_section1_CTA">
-                    <a>
+                    <a href="/contact" class="service_CTA">
                         Préparons un moment mémorable
                     </a>
                 </span>
@@ -94,7 +94,7 @@
         </div>
 
         <div id="service_section2_CTA">
-          <a>
+          <a href="/contact" class="service_CTA">
             Planifiez une rencontre
           </a>
         </div>
@@ -142,6 +142,7 @@ export default {
   #service_section1 #last_paragraph {
     margin-bottom: 53px;
   }
+
   #service_section1 #service_section1_CTA {
     font-family: 'Lato', sans-serif;
     font-size: 22px;
@@ -150,6 +151,7 @@ export default {
     color: #ffff ;
     border-radius: 20px;
     letter-spacing: 0.5px;
+
   }
 
   #service_section1 #service_section1_pictures {
@@ -227,6 +229,10 @@ export default {
 
   }
 
+  .service_CTA {
+    text-decoration: none;
+    color: #ffff;
+  }
 
   
 </style>©
