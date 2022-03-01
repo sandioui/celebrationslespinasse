@@ -315,9 +315,7 @@ export default {
         #section2 .row .text {
             margin-bottom: 27px;
         }
-    }
 
-    @media (min-width: 1200px) {
         .section2_CTA {
             padding: 0 0 0 15px;
         }

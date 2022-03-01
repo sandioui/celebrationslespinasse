@@ -12,4 +12,4 @@ git commit -m 'deploy'
 
 git push -f git@github.com:sandioui/celebrationslespinasse.git main:gh-pages
 
-cd -
+cd - 
