@@ -109,23 +109,22 @@
             
             <div id="section3_img">
                 <img id="steeve-branding" src="../assets/steeve_branding.png" >
-
             </div>
         </div>
     </section>
-
+    <Carousel />
 </template>
 
 <script>
+import Carousel from "../components/Carousel.vue"
 export default {
-
+    components: {
+        Carousel
+    }
 }
 </script>
 
 <style>
-    
-    /*ALL*/
-
     #section1 {
         padding: 8% 4% 8% 4%;
         color: #444554;
@@ -328,7 +327,6 @@ export default {
         #section3 {
             display: flex;
             justify-content: space-between;
-            height: 63vh;
         }
     }
 
