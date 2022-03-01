@@ -124,67 +124,43 @@ export default {
 
 <style>
     
+    /*ALL*/
+
     #section1 {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
         padding: 8% 4% 8% 4%;
         color: #444554;
     }
     
     #section1 #section1_text {
         padding: 0 0 0 4%;
-        position: absolute;
-        max-width: 50%;
-    
     }
 
     #section1 #section1_title {
         font-family: 'Prata', serif;
-        font-size: 46px;
         font-weight: 400;
-        margin-top: 28px;
-        margin-bottom: 20px;
     }
 
     #section1 #section1_paragraph {
         font-family: 'Lato', sans-serif;
-        font-size: 19px;
         line-height: 1.7;
-        margin-bottom: 70px;
     }
 
     #section1 #section1_CTA {
         font-family: 'Lato', sans-serif;
-        font-size: 22px;
         background-color: #976A5E ;
-        padding: 23px 30px;
-        color: #ffff ;
+        color: #ffff;
         border-radius: 20px;
         letter-spacing: 0.5px;
     }
 
     #section1 #section1_pictures {
-        width: 100%;
         padding: 0 4%;
     }
 
     #ceremony-img {
         padding: 0 0;
-        width: 55vh;
         float:right;
         clear:right;
-    
-    }
-
-
-   #hands {
-        position: absolute;
-        right: 352px;
-        bottom: 100px;
-        z-index: 1;
-        top: 676px;
-        width: 35vh;
     }
 
     #section2 {
@@ -194,88 +170,186 @@ export default {
     #section2 #section2_title {
         text-align: center;
         font-family: 'Prata', serif;
-        font-size: 46px;
         font-weight: 400;
-        padding: 2%;
-        margin-top: 30px;
-        margin-bottom: 30px;
     }
 
     #section2 .row {
-        display: flex;
-        padding: 0 162px 0 162px;
-        vertical-align: top;
-        margin-bottom: 139px;
         font-family: 'Lato', sans-serif;
-        font-size: 19px;
-        
-    }
-
-    #section2 #last_row {
-        margin-bottom: 139px;
-    }
-
-    
-    #section2 .row_text-container-right {
-        padding: 0 0 0 89px;
-    }
-
-    #section2 .row_text-container-left {
-        padding: 0 89px 0 0;
     }
 
     #section2 .row .title {
-        margin-bottom: 27px;
         font-weight: bold;
-        
     }
 
     #section2 .row .text {
-        margin-bottom: 27px;
         line-height: 1.7;
         font-weight: regular;
     }
 
     .section2_CTA {
         color: #7D7D7D;
-        padding: 0 0 0 15px;
         text-decoration: none;
     }
 
     #section3 {
-        display: flex;
-        justify-content: space-between;
+        color: #444554;
         width: 100%;
         padding: 8% 4% 1% 4%;
-        height: 63vh;
-        color: #444554;
         align-items: center;
     }
     
     #section3 #section3_text {
         padding: 0 0 0 11.5%;
-    
     }
 
     #section3 #section3_title {
         font-family: 'Prata', serif;
-        font-size: 46px;
         font-weight: 400;
-        margin-bottom: 48px;
     }
 
     #section3 .section3_paragraph {
         font-family: 'Lato', sans-serif;
         text-align: justify;
-        font-size: 19px;
         line-height: 1.7;
-        max-width: 82%;
-        margin-bottom: 28px;
     }
 
     #section3_img {
         padding-right: 4%;
     }
 
+
+    /*Extra large devices (large desktops, 1200px and up)*/
     
+    @media (min-width: 1200px) {
+        #section1 {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+    }
+    @media (min-width: 1200px) {
+        #section1 #section1_text {
+            position: absolute;
+            max-width: 50%;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        #section1 #section1_title {
+            font-size: 46px;
+            margin-top: 28px;
+            margin-bottom: 20px;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        #section1 #section1_paragraph {
+            font-size: 19px;
+            margin-bottom: 70px;
+            max-width: 100%;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        #section1 #section1_CTA {
+            font-size: 22px;
+            padding: 23px 30px;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        #section1 #section1_pictures {
+            width: 100%;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        #ceremony-img {
+            width: 55vh;
+        }
+    }
+    
+    @media (min-width: 1200px) {
+        #section2 #section2_title {
+            padding: 2%;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            font-size: 46px;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        #section2 .row {
+            display: flex;
+            padding: 0 162px 0 162px;
+            vertical-align: top;
+            margin-bottom: 139px;
+            font-size: 19px;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        #section2 #last_row {
+            margin-bottom: 139px;
+        }
+    }
+    
+    @media (min-width: 1200px) {
+        #section2 .row_text-container-right {
+            padding: 0 0 0 89px;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        #section2 .row_text-container-left {
+            padding: 0 89px 0 0;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        #section2 .row .title {
+            margin-bottom: 27px;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        #section2 .row .text {
+            margin-bottom: 27px;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        .section2_CTA {
+            padding: 0 0 0 15px;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        #section3 {
+            display: flex;
+            justify-content: space-between;
+            height: 63vh;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        #section3 #section3_title {
+            font-size: 46px;
+            margin-bottom: 48px;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        #section3 .section3_paragraph {
+            max-width: 82%;
+            margin-bottom: 28px;
+            font-size: 19px;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        #section3_img {
+        
+        }
+    }
 </style>©
