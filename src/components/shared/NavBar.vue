@@ -1,7 +1,7 @@
 <template>
   <section class="nav-wrapper">
     <div id="navbar" class="boxed">
-      <router-link to="/"><img alt="Vue logo" src="../../assets/logo.png"></router-link> 
+      <router-link to="/"><img alt="Vue logo" src="../../assets/logo.png" id="logo"></router-link> 
       <div id="nav">
         <router-link to="/celebration" class="nav_link">Célébration de mariage</router-link>
         <router-link to="/evenement" class="nav_link">Gestion d'événement</router-link>
@@ -55,5 +55,14 @@ export default {
     letter-spacing: 0.5px;
 
   }
+
+    @media (min-width: 375px) {
+        #logo {
+          width: 200px;
+        }
+        #nav {
+          display: none;
+        }
+    }
   
 </style>

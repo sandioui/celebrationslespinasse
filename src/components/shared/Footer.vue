@@ -98,5 +98,27 @@ export default {
         padding-left: 5px;
     }
 
+    @media (min-width: 375px) {
+        #top-section {
+            flex-direction: column-reverse;
+        }
+
+        #top-section #footer-nav {
+            padding: 0;
+        }
+
+        #top-section #footer-text {
+            width: 100%;
+        }
+
+        #bottom-section {
+            flex-direction: column;
+        }
+
+        #bottom-section #follow-me-section {
+            padding-top: 28px;
+        }
+    }
+
 
 </style>

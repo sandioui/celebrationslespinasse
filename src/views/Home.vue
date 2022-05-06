@@ -5,13 +5,16 @@
                 <h1 id="section1_title">
                     Une ambiance de sérénité,<br>de joie, d’amour et de paix.
                 </h1>
+                <h1 id="section1_title_mobile">
+                    Une ambiance de sérénité, de joie, d’amour et de paix.
+                </h1>
                 <div id="section1_paragraph">
                     Je vous accompagne pour <strong> cérémonies de mariage et évènements marquants 
                     de votre vie.</strong> Vous bénéficierez d’un service professionnel et personnalisé 
                     en respectant vos besoins et croyances.
                 </div>
-                <div>
-                    <a id="section1_CTA">
+                <div id="section1_CTA">
+                    <a id="section1_CTA_button">
                         Préparons un moment mémorable
                     </a>
                 </div>
@@ -19,7 +22,9 @@
             
             <div id="section1_pictures">
                 <img id="ceremony-img" src="../assets/photo_home.png">
-
+            </div>
+            <div id="section1_picture_mobile">
+                <img id="ceremony-img" src="../assets/ceremonie.png">
             </div>
         </div>
     </section>
@@ -129,6 +134,10 @@ export default {
         padding: 8% 4% 8% 4%;
         color: #444554;
     }
+
+    #section1_title_mobile {
+        display: none;
+    }
     
     #section1 #section1_text {
         padding: 0 0 0 4%;
@@ -218,66 +227,50 @@ export default {
 
 
     /*Extra large devices (large desktops, 1200px and up)*/
-    
-    @media (min-width: 1200px) {
-        #section1 {
-            display: flex;
-            justify-content: space-between;
-            width: 100%;
-        }
-    }
-    @media (min-width: 1200px) {
-        #section1 #section1_text {
-            position: absolute;
-            max-width: 50%;
-        }
-    }
-
-    @media (min-width: 1200px) {
-        #section1 #section1_title {
-            font-size: 46px;
-            margin-top: 28px;
-            margin-bottom: 20px;
-        }
-    }
-
     @media (min-width: 1200px) {
         #section1 #section1_paragraph {
             font-size: 19px;
             margin-bottom: 70px;
             max-width: 100%;
         }
-    }
 
-    @media (min-width: 1200px) {
         #section1 #section1_CTA {
             font-size: 22px;
             padding: 23px 30px;
         }
-    }
 
-    @media (min-width: 1200px) {
         #section1 #section1_pictures {
             width: 100%;
         }
-    }
+        
+        #section1 #section1_title {
+            font-size: 46px;
+            margin-top: 28px;
+            margin-bottom: 20px;
+        }
+        
+        #section1 #section1_text {
+            position: absolute;
+            max-width: 50%;
+        }
 
-    @media (min-width: 1200px) {
+        #section1 {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+        
         #ceremony-img {
             width: 55vh;
         }
-    }
-    
-    @media (min-width: 1200px) {
+
         #section2 #section2_title {
             padding: 2%;
             margin-top: 30px;
             margin-bottom: 30px;
             font-size: 46px;
         }
-    }
-
-    @media (min-width: 1200px) {
+        
         #section2 .row {
             display: flex;
             padding: 0 162px 0 162px;
@@ -285,59 +278,41 @@ export default {
             margin-bottom: 139px;
             font-size: 19px;
         }
-    }
 
-    @media (min-width: 1200px) {
         #section2 #last_row {
             margin-bottom: 139px;
         }
-    }
-    
-    @media (min-width: 1200px) {
+
         #section2 .row_text-container-right {
             padding: 0 0 0 89px;
         }
-    }
-
-    @media (min-width: 1200px) {
+        
         #section2 .row_text-container-left {
             padding: 0 89px 0 0;
         }
-    }
 
-    @media (min-width: 1200px) {
         #section2 .row .title {
             margin-bottom: 27px;
         }
-    }
 
-    @media (min-width: 1200px) {
-        #section2 .row .text {
-            margin-bottom: 27px;
-        }
-    }
-
-    @media (min-width: 1200px) {
         .section2_CTA {
             padding: 0 0 0 15px;
         }
-    }
 
-    @media (min-width: 1200px) {
+        #section2 .row .text {
+            margin-bottom: 27px;
+        }
+
         #section3 {
             display: flex;
             justify-content: space-between;
         }
-    }
 
-    @media (min-width: 1200px) {
         #section3 #section3_title {
             font-size: 46px;
             margin-bottom: 48px;
         }
-    }
-
-    @media (min-width: 1200px) {
+        
         #section3 .section3_paragraph {
             max-width: 82%;
             margin-bottom: 28px;
@@ -345,9 +320,102 @@ export default {
         }
     }
 
-    @media (min-width: 1200px) {
-        #section3_img {
-        
+    @media (min-width: 375px) {
+        #section1_text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
+        #section1 #section1_title {
+            display: none;
+        }
+
+        #section1{
+            padding: 5 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        #section1_text {
+            padding: 0;
+        }
+        
+        #section1_paragraph {
+            text-align: center;
+            padding-bottom: 28px;
+        }
+
+        #section1 #section1_title_mobile {
+            font-size: 30px;
+            margin-bottom: 28px;
+            display: inherit;
+            text-align: center;
+        }
+
+        #section1_pictures {
+            display: none;
+        }
+
+        #section1_picture_mobile img{
+            padding-top: 28px;
+            width: 300px;
+        }
+
+        #section1_CTA {
+            padding: 15px;
+        }
+
+        #section2 {
+            margin-top: 28px;
+            margin-bottom: 18px;
+        }
+
+        #section2 img {
+            display: none;
+        }
+
+        #section2 #section2_title, #section3_title {
+            font-weight: 600 !important;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        #section2 .row {
+            padding: 20px
+        }
+
+        #section2 .row .text {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            line-height: 1;
+        }
+
+        #section3 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        #section3 #section3_text {
+            padding: 0px 30px;
+        }
+
+        #section3_title {
+            padding-bottom: 28px;
+        }
+
+        #section3_img {
+            padding: 28px 0px;
+        }
+
+        #section3_img img {
+            width: 250px;
+        }
+
+
     }
-</style>©
+</style>
